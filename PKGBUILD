@@ -3,7 +3,7 @@
 # 						 Maintainer: Laurent Carlier <lordheavym@gmail.com>
 
 pkgname=xf86-input-libinput
-pkgver=0.25.1
+pkgver=0.26.0
 pkgrel=2
 pkgdesc="Generic input driver for the X.Org server based on libinput"
 arch=('x86_64')
@@ -14,7 +14,7 @@ makedepends=('xorg-server-devel' 'X-ABI-XINPUT_VERSION=24.1' 'libxi' 'libx11' 'r
 conflicts=('xorg-server<1.19.0' 'X-ABI-XINPUT_VERSION<24' 'X-ABI-XINPUT_VERSION>=25')
 groups=('xorg-drivers')
 source=(https://xorg.freedesktop.org/releases/individual/driver/${pkgname}-${pkgver}.tar.bz2)
-sha512sums=('9a8d16bdffb73a5318d22e352826c410ccb6f8c7ade31c23823bd6c17202bb67e917dfe8d4cab6e54fdf15f201d14d80b6306cedc5f93f66989edfcab5082ece')
+sha512sums=('b52a27e916f7e86576500ef2bc3ce640676f5a710543755865a723628c0e01a575989460853bac184ed696961e3f8fca72ecba8ad4625be8cd9e31f9a55f5e97')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
 build() {
